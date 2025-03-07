@@ -1,0 +1,18 @@
+[project]
+name = "cosmere-characters-dictionary"
+version = "0.1.0"
+description = ""
+authors = [{ name = "Alejandro", email = "you@example.com" }]
+readme = "README.md"
+requires-python = ">=3.9,<4.0"
+dependencies = [
+    "beautifulsoup4 (==4.12.2)",
+    "requests (==2.31.0)",
+    "questionary (==1.10.0)",
+    "webdriver-manager (==3.8.6)",
+    "selenium (==4.11.2)",
+]
+
+
+[tool.poetry]
+package-mode = false
